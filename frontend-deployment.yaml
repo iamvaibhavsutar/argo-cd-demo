@@ -12,9 +12,6 @@ spec:
     metadata:
       labels:
         app: frontend
-  resources:
-    requests:
-      memory: "100Gi"
     spec:
       containers:
       - name: frontend
