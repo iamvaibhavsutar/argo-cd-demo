@@ -4,7 +4,7 @@ metadata:
   name: postgres-pvc
   namespace: demolabs
 spec:
-  storageClassName: manual_fake_sc
+  storageClassName: manual
   accessModes:
     - ReadWriteOnce
   resources:
